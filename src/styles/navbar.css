@@ -1,0 +1,40 @@
+.navbar_body_dark{
+    background-color: hsl(209, 23%, 22%);
+    padding:18px;
+    display: flex;
+    position:sticky;
+    z-index: 2;
+    top:0;
+    justify-content: space-between;
+}
+.navbar_text_dark{
+    margin:0;
+    
+    font-family: 'Poppins', sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    
+}
+.navbar_body_light{
+    background-color: hsl(0, 0%, 100%);
+    padding:18px;
+    display: flex;
+    position:sticky;
+    z-index: 2;
+    top:0;
+    justify-content: space-between;
+}
+.navbar_text_light{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    color:hsl(200, 15%, 8%);
+    font-weight: 600;
+    
+}
+
+.navbar_mode{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
