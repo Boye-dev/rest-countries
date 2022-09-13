@@ -7,7 +7,7 @@ padding-top:3%;
 }
 .home_body_light{
 background-color: hsl(0, 0%, 98%);
-height:100%;
+min-height:100vh;
 padding-left: 5%;
 padding-right:5%;
 padding-top:3%;
@@ -19,6 +19,8 @@ padding-top:3%;
     align-items: center;
 }
 .home_search_dark{
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
     width:80%;
     height:30px;
     padding:5px;
@@ -35,6 +37,8 @@ padding-top:3%;
     margin-bottom: 10px;
 }
 .home_search_light{
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
     width:80%;
     height:30px;
     padding:5px;
@@ -65,10 +69,14 @@ padding-top:3%;
 }
 .home_region_right{
     display: flex;
+  
+
     justify-content: flex-end;
     position: relative;
 }
 .home_region_dark{
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
    
     width:150px;
     background-color: hsl(209, 23%, 22%);
@@ -83,6 +91,8 @@ padding-top:3%;
 .home_region_light{
    
     width:150px;
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
     background-color: hsl(0, 0%, 100%);
     height:30px;
     padding:5px 15px;
@@ -94,6 +104,7 @@ padding-top:3%;
 }
 .home_flags{
     height:100%;
+
     background-color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -115,6 +126,8 @@ padding-top:3%;
 }
 .home_region_filters_dark{
     margin-top: 5px;
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
     width:150px;
     background-color: hsl(209, 23%, 22%);
     height:230px;
@@ -125,6 +138,8 @@ padding-top:3%;
 }
 .home_region_filters_light{
     margin-top: 5px;
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
     width:150px;
     background-color: hsl(0, 0%, 100%);
     height:230px;
@@ -142,6 +157,8 @@ padding-top:3%;
     
 }
 .home_main_cards_dark{
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
     background-color: hsl(209, 23%, 22%);
     height:400px;
     margin:10%;
@@ -150,6 +167,8 @@ padding-top:3%;
    
 }
 .home_main_cards_light{
+    box-shadow: 1px 1px 3px 2px rgba(31, 30, 30, 0.281);
+
     background-color: hsl(0, 0%, 100%);
     height:400px;
     margin:10%;
