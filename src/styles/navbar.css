@@ -1,6 +1,6 @@
 .navbar_body_dark{
     background-color: hsl(209, 23%, 22%);
-    padding:18px;
+    padding:25px;
     display: flex;
     position:sticky;
     z-index: 2;
@@ -17,7 +17,7 @@
 }
 .navbar_body_light{
     background-color: hsl(0, 0%, 100%);
-    padding:18px;
+    padding:25px;
     display: flex;
     position:sticky;
     z-index: 2;
